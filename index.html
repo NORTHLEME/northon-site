@@ -1,73 +1,28 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Site profissional e acadêmico do professor Northon, dedicado ao ensino e à divulgação da matemática.">
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="#102a43">
-  <title>Professor Northon — Matemática</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Site acadêmico de Northon Canevari Leme Penteado, professor e pesquisador em Topologia Algébrica.">
+  <meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#102e35">
+  <title>Northon Canevari — Topologia, pesquisa e ensino</title><link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
   <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Professor Northon, início">
-      <span>Professor</span> Northon
-    </a>
-    <nav aria-label="Navegação principal">
-      <a href="#sobre">Sobre</a>
-      <a href="#areas">Áreas do site</a>
-      <a href="#situacao">Situação</a>
-    </nav>
+    <a class="brand" href="index.html" aria-label="Northon Canevari, página inicial"><span class="brand-mark" aria-hidden="true">N</span><span>Northon <small>Matemática em movimento</small></span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" aria-label="Navegação principal"><a href="sobre.html">Sobre</a><a href="conteudos-intermitentes.html">Conteúdos Intermitentes</a><a href="curiosidades-homeomorfas.html">Curiosidades Homeomorfas</a></nav>
   </header>
-
   <main id="conteudo">
-    <section class="hero" id="inicio" aria-labelledby="titulo-principal">
-      <p class="eyebrow">Matemática · Ensino · Divulgação</p>
-      <h1 id="titulo-principal">Site profissional e acadêmico do professor Northon</h1>
-      <p class="lead">Um espaço em preparação para reunir atividades de ensino, produção profissional e conteúdos sobre matemática.</p>
-      <a class="button" href="#areas">Conheça a proposta</a>
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="hero-copy"><p class="eyebrow">Topologia algébrica · Teoria de raízes</p><h1 id="titulo-principal">Formas mudam.<br>Ideias permanecem.</h1><p class="lead">O espaço acadêmico de Northon Canevari Leme Penteado: pesquisa, ensino e percursos pela matemática.</p><a class="button" href="sobre.html">Conheça o pesquisador <span aria-hidden="true">→</span></a></div>
+      <div class="topology-figure" aria-hidden="true"><svg viewBox="0 0 560 430"><defs><linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7b45e"/><stop offset="1" stop-color="#d7684c"/></linearGradient></defs><path class="orbit" d="M42 218C42 91 154 32 283 67s229 137 219 235-137 111-254 73S42 345 42 218Z"/><path class="surface" fill="url(#surface)" d="M116 219c0-87 72-140 166-140s171 51 171 136-77 142-170 142-167-54-167-138Zm82 0c0 44 37 70 85 70s88-28 88-72-39-70-87-70-86 27-86 72Z"/><path class="seam" d="M121 192c75 48 245 52 326-2M137 282c78-38 219-42 299-3"/><circle class="root" cx="198" cy="219" r="8"/><circle class="root" cx="371" cy="217" r="8"/><path class="map-arrow" d="M278 38v32m-10-10 10 10 10-10"/></svg></div>
     </section>
-
-    <section id="sobre" aria-labelledby="titulo-sobre">
-      <p class="section-label">Sobre</p>
-      <h2 id="titulo-sobre">Conhecimento organizado e acessível</h2>
-      <p>O site está sendo estruturado para apresentar informações acadêmicas e apoiar o compartilhamento responsável de materiais educacionais.</p>
-    </section>
-
-    <section id="areas" aria-labelledby="titulo-areas">
-      <p class="section-label">Áreas do site</p>
-      <h2 id="titulo-areas">Conteúdo planejado</h2>
-      <div class="card-grid">
-        <article>
-          <h3>Ensino</h3>
-          <p>Disciplinas, atividades e materiais organizados por período acadêmico.</p>
-        </article>
-        <article>
-          <h3>Produção</h3>
-          <p>Trabalhos, projetos e demais produções profissionais autorizadas.</p>
-        </article>
-        <article>
-          <h3>Matemática</h3>
-          <p>Notícias, curiosidades, textos e indicações com autoria e referências.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="status" id="situacao" aria-labelledby="titulo-situacao">
-      <p class="section-label">Situação</p>
-      <h2 id="titulo-situacao">Conteúdo em preparação</h2>
-      <p>Esta é uma versão inicial para validação da hospedagem. Informações biográficas, contatos, publicações e materiais serão adicionados somente após revisão e autorização.</p>
-    </section>
+    <section class="site-paths" aria-labelledby="caminhos-titulo"><p class="section-label">Três caminhos</p><h2 id="caminhos-titulo">Um site, diferentes vizinhanças</h2><div class="card-grid">
+      <a class="path-card" href="sobre.html"><span class="card-number">01</span><h3>Sobre</h3><p>Trajetória, pesquisa e atividades do professor.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="path-card" href="conteudos-intermitentes.html"><span class="card-number">02</span><h3>Conteúdos Intermitentes</h3><p>Ensino e Produção na Academia, reunidos por ciclos.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="path-card" href="curiosidades-homeomorfas.html"><span class="card-number">03</span><h3>Curiosidades Homeomorfas</h3><p>Indicações e notícias que aproximam matemática e cultura.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+    </div></section>
   </main>
-
-  <footer>
-    <p>© <span id="ano">2026</span> Professor Northon.</p>
-    <p><a href="https://northon.mat.br">northon.mat.br</a></p>
-  </footer>
-
-  <script src="app.js" defer></script>
-</body>
-</html>
+  <footer><p>© <span data-current-year>2026</span> Northon Canevari Leme Penteado</p><p>Professor · Pesquisador · Topólogo algébrico</p></footer><script src="app.js" defer></script>
+</body></html>
